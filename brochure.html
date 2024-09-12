@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sivakasi Market</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+    <!-- bootstrrap css -->
+     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#goTop" >
+    <div id="topbar" class="topbar">
+
+    
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 sticky-top px-5 ">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="portfolio.html">
+                <img src="images/logo-5.jpg" alt="site icon" height="100px" width="300px">
+             <span class="text-uppercase fw-lighter ms-2"></span>
+            </a>
+            <div class="order-lg-2">
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">0</span>
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-heart"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-primary"></span>
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-search"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-primary"></span>
+                </button>
+            </div>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                <ul class="navbar-nav mx-auto text-center mb-2 mb-lg-2">
+                    </li>
+                    <li class="nav-item px-2 py-2 hover-line ">
+                        <a class="nav-link text-uppercase text-dark "  href="index.html">home</a>
+                    </li>
+                    <li class="nav-item px-2 py-2 ">
+                        <a class="nav-link text-uppercase text-dark" href="profile.html" >profile </a>
+                        
+                    </li>
+                    <li class="nav-item px-2 py-2 ">
+                        <a class="nav-link text-uppercase text-dark " href="services.html">services</a>
+                        
+                    </li>
+                    <li class="nav-item px-2 py-2 ">
+                        <a class="nav-link text-uppercase text-dark" href="portfolio.html">portfolio</a>
+                    </li>
+                    <li class="nav-item px-2 py-2 ">
+                        <a class="nav-link text-uppercase text-dark" href="contact.html">contact</a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    </nav>
+ <!-- end of navbar -->
+ <nav aria-label="breadcrumb mb-5 mt-5 p-2">
+    <ol class="breadcrumb p-3">
+        <li class="breadcrumb-item"><a href="services.html">Services</a></li>
+        <li class="breadcrumb-item"><a href="services.html">OffsetPrinting</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Brochure</li>
+    </ol>
+</nav>
+
+
+<!--  -->
+
+
+  
+<!-- brochure page start -->
+
+<section id="about-1 mb-4">
+    <div class="about-1-section wrapper">
+        <div class="container aboutus">
+            <div class="row align-item-center">
+<div class="col-lg-6 col-md-12 mb-lg-2 mb-5">
+    <div class="card border-0 big-img  ">
+        <img src="images/offset printing/brochure/i1.jpg" class="img-fluid" >
+
+    </div>
+    <div class="images">
+        <div class="small-img">
+            <img src="images/offset printing/brochure/i1.jpg" onclick="showImg(this.src)" >
+        </div>
+        <div class="small-img">
+            <img src="images/offset printing/brochure/i1.jpg" onclick="showImg(this.src)" >
+        </div>
+        <div class="small-img">
+            <img src="images/offset printing/brochure/i1.jpg" onclick="showImg(this.src)" >
+        </div>
+        <div class="small-img">
+            <img src="images/offset printing/brochure/i1.jpg" onclick="showImg(this.src)" >
+        </div>
+        
+            </div>
+</div>
+<div class="col-lg-6 col-md-12 mb-lg-2 text-sec">
+    <h2>Custom Brochure</h2>
+    <p>Also referred to as Company Brochure</p>
+    <ul>
+        <li>Mostly used to provide customers with comprehensive descriptions of company and its services.</li>
+        <li>Available Sizes: A4, A5 and DL</li>
+        <li>Paper Finish:Glossy & Matt Papers</li>
+        <li>Material: 170, 220 & 300 GSM material available</li>
+    </ul>
+    <br>
+
+    <form>
+        <div class="row mb-3">
+            <label for="foldType" class="col-sm-4 col-form-label">Fold Type</label>
+            <div class="col-sm-8">
+                <select class="form-select" name="" id="foldType">
+                    <option selected>Half Fold</option>
+                    <option selected>Tri Fold</option>
+                    <option selected>Z-Fold</option>
+                    <option selected>Roll Fold</option>
+                </select>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="paperType" class="col-sm-4 col-form-label">Paper Type</label>
+            <div class="col-sm-8">
+                <select class="form-select" name="" id="paperType">
+                    <option selected>Standard Papers</option>
+                    <option selected>Eco-Friendly Papers</option>
+                    <option selected>Premium Textured Papers</option>
+                    <option selected>Laminated Brochures</option>
+                    <option selected>Premium Print Brochures</option>
+                </select>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="brochureSize" class="col-sm-4 col-form-label">Brochure Size</label>
+            <div class="col-sm-8">
+                <select class="form-select" name="" id="brochureSize">
+                    <option selected>A5</option>
+                    <option selected>A4</option>
+                    <option selected>DL</option>
+                </select>
+                <div id="brochureSize" class="form-text">Closed / Folded Size </div>
+            </div>
+        </div>
+          <div class="row mb-3">
+            <label for="materials" class="col-sm-4 col-form-label">Materials</label>
+            <div class="col-sm-8">
+              <select class="form-select" name="" id="materials">
+              <option selected>170gsm Glossy Coated Paper</option>
+              <option selected>170gsm Matte Coated Paper</option>
+              <option selected>220gsm Glossy Coated Paper</option>
+              <option selected>220gsm Matte Coated Paper</option>
+              <option selected>300gsm Glossy Coated Paper</option>
+              <option selected>300gsm Matte Coated Paper</option>
+          </select>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="quantity" class="col-sm-4 col-form-label">Quantity</label>
+            <div class="col-sm-8">
+                <input type="number" class="form-control" id="number">
+                <div id="brochureSize" class="form-text">Choose a quantity between 5 - 10000 for instant ordering. For higher quantities, you will be allowed to request quotations from Sales Team. </div>
+            </div>
+          </div>
+                 
+    <br>
+<div class="row mb-3">
+    <div class="col-sm-4 col-form-label">
+        <div id="mrp" class="form-text"><p class="text-danger ">₹157.50</p>inclusive of all taxes <p>for 5 Qty (₹31.50 / piece)</p></div>
+</div>
+<div class="upload col-sm-8">
+    <input type="file"  id="uploadBtn">
+    <label for="uploadBtn">Upload File</label>
+</div>
+    
+
+</form>
+    
+
+   
+</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Navs & Tabs:Allows organising content into different sections or views -->
+ <section class="description">
+    <div>
+<ul class="nav nav-tabs  pxy-5 p-2  ">
+    <li class="nav-item "><button class="nav-link  active" data-bs-toggle="tab" data-bs-target="#overView" type="button">OverView</button></li>
+    <li class="nav-item"><button class="nav-link " data-bs-toggle="tab" data-bs-target="#specifications" type="button">Specifications</button></li>
+    <li class="nav-item"><button class="nav-link " data-bs-toggle="tab" data-bs-target="#designGuidelines" type="button">Design Guidelines</button></li>
+ </ul>
+ <div class="tab-content">
+     <div class="tab-pane show fade active" id="overView">
+         <h2>Professional Brochures delivered fast</h2>
+         <p>Craft a clear and professional first impression with our custom brochures, also known as company brochures. These versatile marketing tools provide a comprehensive overview of your company and its services, allowing you to effectively reach and inform potential customers. Choose from a range of sizes (A4, A5, and DL) to suit your needs, and select from glossy or matte finishes to match your brand aesthetic. </p>
+         <br>
+         <p>We offer paper weights of 170gsm, 220gsm, and 300gsm for added durability and a touch of quality. Plus, enjoy the convenience of same-day delivery for orders placed before 3 pm - ensuring a fast and efficient way to get your message out there.</p>
+     </div>
+     <div class="tab-pane fade" id="specifications">
+         <h2>Brochure Customization Specifications</h2>
+         <div class="row">
+            <div class="col-sm-2">
+                <p>Printing Type</p>
+                <p>Available Sizes</p>
+                <p>Available Paper Type</p>
+                <p>Available Paper Material</p>
+                <p>MOQ</p>
+            </div>
+            <div class="col-sm-10">
+                <p><i>Multicolor Printing</i></p>
+                <p><i>A4, A5, DL (Closed Size)</i></p>
+                <p><i>Standard,Premium Print,Eco-friendly,Premium Textured and Laminated Papers</i></p>
+               <p><i>170GSM, 220GSM, & 300GSM (Matte & Glossy Coated)</i></p> 
+               <p><i>5</i></p> 
+            </div>
+         </div>
+     </div>
+     <div class="tab-pane fade" id="designGuidelines">
+         <ol>
+            <li>Correct Dimensions and Bleed:
+                <p>- For A4 size: Set up your document size as 210 mm x 297 mm (8.27" x 11.69") with a bleed of 3 mm (0.125 inches) on all sides.</p>
+                <p>- For A5 size: Set up your document size as 148 mm x 210 mm (5.83" x 8.27") with a bleed of 3 mm (0.125 inches) on all sides.</p>
+                <p>- For DL size: Set up your document size as 99 mm x 210 mm (3.90" x 8.27") with a bleed of 3 mm (0.125 inches) on all sides.</p>
+                </li>
+                <li><p> Convert your design to CMYK color mode for accurate color representation in print. Ensure images are high resolution (at least 300 dpi) to maintain quality.
+                </li></p>
+                <li> <p>Ensure that the fold line is positioned accurately at the halfway point of the document. This is crucial for a clean fold and professional appearance.</li></p>
+                <li> <p>Provide the file in vector formats like PSD/Ai/PDF or CDR file formats.</li></p>
+                <li><p> Embed or outline all fonts used in your design to prevent font substitution issues.</p></li>
+                <li><p>Choose a suitable paper stock and finish based on your preferences and budget. Common options include matte, gloss, or uncoated finishes, with varying paper weights.</p></li>
+         </ol>
+     </div>
+ </div>
+</div>
+</section>
+
+    <!-- whatsapp icon sticky -->
+    <div class="whatsapp-main">
+        <a href="https://wa.me/919999999999" target="_blank">
+        <img src="images/whatsapp.png" width="15%" class="whatsapp_img"></a>
+      </div>
+      
+    
+     <!-- /whatsapp icon-->
+    <!-- to top -->
+     <div id="goTop">
+        <a href="#topbar" id="goToBtn">
+            <i class=	"fas fa-angle-double-up"></i>
+        </a>
+     </div>
+
+
+    
+    <!-- footer -->
+    <footer class="bg-light text-dark pt-5 pb-4 ">
+        <div class="container text-align-left text-md-left">
+            <div class="row text-align-left text-md-left">
+                
+                    <div  class="col-12 col-md-6 col-lg-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-danger">ABOUT SIVAKASI MARKET.</h5>
+                    <hr class="mb-4">
+                    <p class="text-dark">Sivakasi market designed to handle bulk orders for custom designs across various categories. Our offerings
+                        include high-quality custom design and bulk printing services for stationery, paper boxes, diaries, jewelry
+                        boxes, garment boxes, food and medical packets, and wrappers.
+                    </p>
+                       
+                </div>
+            
+           
+                <div  class="col-12 col-md-6 col-lg-3 mt-3 mx-auto">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-danger">products</h5>
+                <hr class="mb-4">
+                <p>
+                    <a href="#" class="text-dark" style="text-decoration: none;">Brochure Design</a>
+                </p>
+                <p>
+                    <a href="#" class="text-dark" style="text-decoration: none;">Catalog Design</a>
+                </p>
+                 <p>
+                    <a href="#" class="text-dark" style="text-decoration: none;">Calenders</a>
+                </p>
+
+                <p>
+                    <a href="#" class="text-dark" style="text-decoration: none;">Packaging Design</a>
+                </p>
+                <p>
+                    <a href="#" class="text-dark" style="text-decoration: none;">Printing</a>
+                </p>
+                <p>
+                    <a href="#" class="text-dark" style="text-decoration: none;">Flyer</a>
+                </p>
+            </div>
+           
+                <div  class="col-12 col-md-6 col-lg-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-danger">Whereabouts</h5>
+            <hr class="mb-4">
+            <div class="map-area">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.5747342765026!2d78.07388647588509!3d9.885999874984218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00cfcc15e12a61%3A0xbe7dd0a1e579baf4!2sAriv%20Executions!5e0!3m2!1sen!2sin!4v1724375259879!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+           
+        </div>
+    
+            <div  class="col-12 col-md-6 col-lg-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-danger">Digital Platforms</h5>
+            <hr class="mb-4">
+           <p>
+            <li class="fas fa-home mr-3"></li>Madurai 33,Tamil Nadu
+           </p>
+           <p>
+            <li class="fas fa-envelope mr-3"></li>sivakasimarket@gmail.com
+           </p>
+           <p>
+            <li class="fas fa-phone mr-3"></li>+91-9000-000-000
+           </p>
+          
+        </div>
+ 
+
+    </div>
+    <hr class="mb-4"> 
+    <div class=" row d-flex justify-content-center">
+<div>
+    <p class="text-center">
+        Copyright &copy;2024 All Rights Reserved By:
+        <a href="#" style="text-decoration: none;">
+            <strong class="text-danger">SivakasiMarket</strong>
+        </a>
+    </p>
+</div>
+    </div>
+    <div class="row d-flex justify-content-center">
+<div class="text-center">
+    <ul class="list-unstyled list-inline">
+        <li class="list-inline-item">
+            <a href="#" class="text-dark">
+                <i class="fab fa-facebook"></i>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a href="#" class="text-dark">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a href="#" class="text-dark">
+                <i class="fab fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a href="#" class="text-dark">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a href="#" class="text-dark">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </li>
+    </ul>
+
+</div>
+    </div>
+
+        </div>
+
+     </footer>
+     <!-- /footer -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+       
+
+
+    <!-- jquery -->
+     <script src="js/jquery-3.7.1.js"></script>
+    <!--bootstrap js  -->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- custom js -->
+     <script src="js/script.js"></script>
+     <!-- js for product gallery -->
+      
+      </script>
+</body>
+
+</html>

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sivakasi Market</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+    <!-- bootstrrap css -->
+     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#goTop" >
+    <div id="topbar" class="topbar">
+
+    
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 sticky-top px-5 ">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="portfolio.html">
+                <img src="images/logo-5.jpg" alt="site icon" height="100px" width="300px">
+                <span class="text-uppercase fw-lighter ms-2"></span>
+            </a>
+            <div class="order-lg-2">
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">0</span>
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-heart"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-primary"></span>
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-search"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-primary"></span>
+                </button>
+            </div>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                <ul class="navbar-nav mx-auto text-center mb-2 mb-lg-2">
+                    </li>
+                    <li class="nav-item px-2 py-2 hover-line ">
+                        <a class="nav-link text-uppercase text-dark " href="index.html">home</a>
+                    </li>
+                    <li class="nav-item px-2 py-2 ">
+                        <a class="nav-link text-uppercase text-dark" href="profile.html">profile </a>
+                    </li>
+                    <li class="nav-item px-2 py-2 ">
+                        <a class="nav-link text-uppercase text-dark " href="services.html">services</a>
+                    </li>
+                    <li class="nav-item px-2 py-2 ">
+                        <a class="nav-link text-uppercase text-dark" href="portfolio.html">portfolio</a>
+                    </li>
+                    <li class="nav-item px-2 py-2 ">
+                        <a class="nav-link text-uppercase text-dark" href="contact.html">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+    <nav aria-label="breadcrumb mb-5 mt-5 p-2">
+        <ol class="breadcrumb p-3">
+            <li class="breadcrumb-item"><a href="#">Services</a></li>
+            <li class="breadcrumb-item"><a href="services.html">OffsetPrinting</a></li>
+            <li class="breadcrumb-item"><a href="flyers.html">Flyer</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Promotional Flyer</li>
+        </ol>
+    </nav>
+
+
+<!--  -->
+
+
+  
+<!-- brochure page start -->
+
+<section id="about-1 mb-4">
+    <div class="about-1-section wrapper">
+        <div class="container aboutus">
+            <div class="row align-item-center">
+                <div class="col-lg-6 col-md-12 mb-lg-2 mb-5">
+                    <div class="card border-0 big-img  ">
+                        <img src="images/offset printing/flyer/promotional.jpg" class="img-fluid">
+                    </div>
+                    <div class="images">
+                        <div class="small-img" >
+                            <img src="images/offset printing/flyer/promotional.jpg" onclick="showImg(this.src)">
+                        </div>
+                        <div class="small-img">
+                            <img src="images/offset printing/flyer/promotional.jpg" onclick="showImg(this.src)">
+                        </div>
+                        <div class="small-img">
+                            <img src="images/offset printing/flyer/promotional.jpg" onclick="showImg(this.src)">
+                        </div>
+                        <div class="small-img">
+                            <img src="images/offset printing/flyer/promotional.jpg" onclick="showImg(this.src)">
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 mb-lg-2 text-sec">
+                    <h2>Promotional Flyers</h2>
+                    <h6>Digital printing is the quickest way to produce short quantity of products at short time. <h6>
+                            <br>
+                            <form>
+                                <div class="row mb-3">
+                                    <label for="size" class="col-sm-4 col-form-label">Size</label>
+                                    <div class="col-sm-8">
+                                        <select class="form-select" name="" id="size">
+                                            <option selected>A4</option>
+                                            <option selected>A5</option>
+                                             <option selected>DL</option>                                            
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="printlocation" class="col-sm-4 col-form-label">Print Location</label>
+                                    <div class="col-sm-8">
+                                        <textarea class="form-control" id="printlocation" cols="8"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="Orientation" class="col-sm-4 col-form-label">Orientation</label>
+                                    <div class="col-sm-8">
+                                        <select class="form-select" name="" id="Orientation">
+                                            <option selected>Potrait</option>
+                                            <option selected>Landscape</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="Quantity" class="col-sm-4 col-form-label">Quantity</label>
+                                    <div class="col-sm-8">
+                                        <select class="form-select" name="" id="Quantity">
+                                            <option selected>20</option>
+                                            <option selected>50</option>
+                                            <option selected>100</option>
+                                            <option selected>150</option>
+                                            <option selected>200</option>
+                                            <option selected>250</option>
+                                            <option selected>300</option>
+                                            <option selected>350</option>
+                                            <option selected>400</option>
+                                            <option selected>450</option>
+                                            
+                                        </select>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row mb-3">
+                                    <div class="col-sm-4 col-form-label">
+                                        <div id="mrp" class="form-text">
+                                            <p class="text-danger ">₹149.00</p>inclusive of all taxes <p>for 25 Qty
+                                                (₹5.50 / piece)</p>
+                                        </div>
+                                    </div>
+                                    <div class="upload col-sm-8">
+                                        <input type="file" id="uploadBtn">
+                                        <label for="uploadBtn">Upload File</label>
+                                    </div>
+                            </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container justify-content-center mt-3 mb-3">
+    <h2 class="text-dark">The reason for using this material</h2>
+    <div class="text-secondary">
+        
+     <p> We offer Two kinds of paper material considering it's lightweight, easy to distribute feature. </p> 
+        <p>The choice will depend on your preferred material thickness and the distribution location of the marketing flyers.</p>
+        <br>
+            <p>130gsm Glossy paper - Standard Paper(Digital printing)
+            </p>
+            <p>90gsm  Glossy coated paper- Economy paper (Offset paper)
+            </p>
+            </div>
+    <div>
+        <h2 class="text-dark">Detail about sizes and its purposes</h2>
+        <div class="text-secondary">
+            <p>
+                Digital printing
+            </p>
+            <p>This process uses four colours (CMYK) with toners and inks to print digital files. </p>
+            <p>This option is can be compared home printer but in larger size.
+            </p>
+            <p>We can print as low as from 25 Qty. 
+            </p>
+            <p>This is because there are less starting costs, less components involved, and no ink drying time necessary.
+            </p>
+        </div>
+        
+        
+    <div>
+        
+        <div class="text-secondary">
+            <p>
+                Offset printing :
+            </p>
+            <p>This process makes it possible to provide larger quantities at very affordable pricing. 
+            </p>
+            <p>It is the most cost-effective option when you order for bigger Flyer Quantity.</p>
+            <p>This technique creates images and text with wet ink and transferred to each paper sheet with aluminium and rubber plates.
+
+            </p>
+        </div>
+
+    </div>
+    </div>
+</div>
+
+
+    <!-- whatsapp icon sticky -->
+    <div class="whatsapp-main">
+        <a href="https://wa.me/919999999999" target="_blank">
+        <img src="images/whatsapp.png" width="15%" class="whatsapp_img"></a>
+      </div>
+      
+    
+     <!-- /whatsapp icon-->
+    <!-- to top -->
+     <div id="goTop">
+        <a href="#topbar" id="goToBtn">
+            <i class=	"fas fa-angle-double-up"></i>
+        </a>
+     </div>
+
+
+    
+    <!-- footer -->
+    <footer class="bg-light text-dark pt-5 pb-4 ">
+        <div class="container text-align-left text-md-left">
+            <div class="row text-align-left text-md-left">
+                
+                    <div  class="col-12 col-md-6 col-lg-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-danger">ABOUT SIVAKASI MARKET.</h5>
+                    <hr class="mb-4">
+                    <p class="text-dark">Sivakasi market designed to handle bulk orders for custom designs across various categories. Our offerings
+                        include high-quality custom design and bulk printing services for stationery, paper boxes, diaries, jewelry
+                        boxes, garment boxes, food and medical packets, and wrappers.
+                    </p>
+                       
+                </div>
+            
+           
+                <div  class="col-12 col-md-6 col-lg-3 mt-3 mx-auto">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-danger">products</h5>
+                <hr class="mb-4">
+                <p>
+                    <a href="#" class="text-dark" style="text-decoration: none;">Brochure Design</a>
+                </p>
+                <p>
+                    <a href="#" class="text-dark" style="text-decoration: none;">Catalog Design</a>
+                </p>
+                 <p>
+                    <a href="#" class="text-dark" style="text-decoration: none;">Calenders</a>
+                </p>
+
+                <p>
+                    <a href="#" class="text-dark" style="text-decoration: none;">Packaging Design</a>
+                </p>
+                <p>
+                    <a href="#" class="text-dark" style="text-decoration: none;">Printing</a>
+                </p>
+                <p>
+                    <a href="#" class="text-dark" style="text-decoration: none;">Flyer</a>
+                </p>
+            </div>
+           
+                <div  class="col-12 col-md-6 col-lg-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-danger">Whereabouts</h5>
+            <hr class="mb-4">
+            <div class="map-area">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.5747342765026!2d78.07388647588509!3d9.885999874984218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00cfcc15e12a61%3A0xbe7dd0a1e579baf4!2sAriv%20Executions!5e0!3m2!1sen!2sin!4v1724375259879!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+           
+        </div>
+    
+            <div  class="col-12 col-md-6 col-lg-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-danger">Digital Platforms</h5>
+            <hr class="mb-4">
+           <p>
+            <li class="fas fa-home mr-3"></li>Madurai 33,Tamil Nadu
+           </p>
+           <p>
+            <li class="fas fa-envelope mr-3"></li>sivakasimarket@gmail.com
+           </p>
+           <p>
+            <li class="fas fa-phone mr-3"></li>+91-9000-000-000
+           </p>
+          
+        </div>
+ 
+
+    </div>
+    <hr class="mb-4"> 
+    <div class=" row d-flex justify-content-center">
+<div>
+    <p class="text-center">
+        Copyright &copy;2024 All Rights Reserved By:
+        <a href="#" style="text-decoration: none;">
+            <strong class="text-danger">SivakasiMarket</strong>
+        </a>
+    </p>
+</div>
+    </div>
+    <div class="row d-flex justify-content-center">
+<div class="text-center">
+    <ul class="list-unstyled list-inline">
+        <li class="list-inline-item">
+            <a href="#" class="text-dark">
+                <i class="fab fa-facebook"></i>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a href="#" class="text-dark">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a href="#" class="text-dark">
+                <i class="fab fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a href="#" class="text-dark">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a href="#" class="text-dark">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </li>
+    </ul>
+
+</div>
+    </div>
+
+        </div>
+
+     </footer>
+     <!-- /footer -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+       
+
+
+    <!-- jquery -->
+     <script src="js/jquery-3.7.1.js"></script>
+    <!--bootstrap js  -->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- custom js -->
+     <script src="js/script.js"></script>
+     <!-- js for product gallery -->
+      
+      </script>
+</body>
+
+</html>

@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sivakasi Market</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+    <!-- bootstrrap css -->
+     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#goTop" >
+    <div id="topbar" class="topbar">
+
+    
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 sticky-top px-5 ">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="portfolio.html">
+                <img src="images/logo-5.jpg" alt="site icon" height="100px" width="300px">
+                <span class="text-uppercase fw-lighter ms-2"></span>
+            </a>
+            <div class="order-lg-2">
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">0</span>
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-heart"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-primary"></span>
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-search"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-primary"></span>
+                </button>
+            </div>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                <ul class="navbar-nav mx-auto text-center mb-2 mb-lg-2">
+                    </li>
+                    <li class="nav-item px-2 py-2 hover-line ">
+                        <a class="nav-link text-uppercase text-dark " href="index.html">home</a>
+                    </li>
+                    <li class="nav-item px-2 py-2 ">
+                        <a class="nav-link text-uppercase text-dark" href="profile.html">profile </a>
+                    </li>
+                    <li class="nav-item px-2 py-2 ">
+                        <a class="nav-link text-uppercase text-dark " href="services.html">services</a>
+                    </li>
+                    <li class="nav-item px-2 py-2 ">
+                        <a class="nav-link text-uppercase text-dark" href="portfolio.html">portfolio</a>
+                    </li>
+                    <li class="nav-item px-2 py-2 ">
+                        <a class="nav-link text-uppercase text-dark" href="contact.html">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+    <nav aria-label="breadcrumb mb-5 mt-5 p-2">
+        <ol class="breadcrumb p-3">
+            <li class="breadcrumb-item"><a href="#">Services</a></li>
+            <li class="breadcrumb-item"><a href="services.html">OffsetPrinting</a></li>
+            <li class="breadcrumb-item"><a href="flyers.html">Flyer</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Product Catalog</li>
+        </ol>
+    </nav>
+
+
+<!--  -->
+
+
+  
+<!-- brochure page start -->
+
+<section id="about-1 mb-4">
+    <div class="about-1-section wrapper">
+        <div class="container aboutus">
+            <div class="row align-item-center">
+                <div class="col-lg-6 col-md-12 mb-lg-2 mb-5">
+                    <div class="card border-0 big-img  ">
+                        <img src="images/offset printing/flyer/product-catalog.jpg" class="img-fluid">
+                    </div>
+                    <div class="images">
+                        <div class="small-img">
+                            <img src="images/offset printing/flyer/product-catalog.jpg" onclick="showImg(this.src)">
+                        </div>
+                        <div class="small-img">
+                            <img src="images/offset printing/flyer/product-catalog.jpg" onclick="showImg(this.src)">
+                        </div>
+                        <div class="small-img">
+                            <img src="images/offset printing/flyer/product-catalog.jpg" onclick="showImg(this.src)">
+                        </div>
+                        <div class="small-img">
+                            <img src="images/offset printing/flyer/product-catalog.jpg" onclick="showImg(this.src)">
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 mb-lg-2 text-sec">
+                    <h2>Product Catalog</h2>
+                    <h6>Showcase clothing, electronics, furniture, homeware, and more, with detailed descriptions and high-quality images.</h6>
+                        <ul>
+                            <li>Print Type: Multicolor printing on all pages
+                            </li>
+                            <li>Paper Options: 170GSM and 300GSM coated paper
+                            </li>
+                            <li>Binding Options: Staple, Wiro and Perfect Binding
+                            </li>
+                            <li>Available in 8,12,16, 24, 32 and 64 pages print option (Including the cover pages)</li>
+                            <li>Order from as low as 1 unit</li>
+                        </ul>
+                            <br>
+                            <form>
+                                <div class="row mb-3">
+                                    <label for="size" class="col-sm-4 col-form-label">Size</label>
+                                    <div class="col-sm-8">
+                                        <select class="form-select" name="" id="size">
+                                            <option selected>6 X 6 inch</option>
+                                            <option selected>A4</option>
+                                            <option selected>A5</option>
+                                            <option selected>DL</option>
+                                            <option selected>8 X 8 inch</option>
+                                            
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="bindingType" class="col-sm-4 col-form-label">Binding Type</label>
+                                    <div class="col-sm-8">
+                                        <select class="form-select" name="" id="bindingType">
+                                            <option selected>Staple Pin</option>
+                                            <option selected>Wiro</option>
+                                            <option selected>Perfect</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="paperType" class="col-sm-4 col-form-label">Paper Type</label>
+                                    <div class="col-sm-8">
+                                        <select class="form-select" name="" id="paperType">
+                                            <option selected>170gsm Coated Paper</option>
+                                            <option selected>300gsm Coated Paper</option>
+                                            <option selected>300gsm Coated Thick Cover + inner (170gsm)</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="Pages" class="col-sm-4 col-form-label">Pages</label>
+                                    <div class="col-sm-8">
+                                        <select class="form-select" name="" id="Pages">
+                                            <option selected>8 Pages</option>
+                                            <option selected>12 Pages</option>
+                                            <option selected>16 Pages</option>
+                                            <option selected>24 Pages</option>
+                                            <option selected>32 Pages</option>
+                                            <option selected>64 Pages</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="quantity" class="col-sm-4 col-form-label">Quantity</label>
+                                    <div class="col-sm-8">
+                                        <textarea class="form-control" id="quantity" cols="8"></textarea>
+                                    </div>
+                                </div>
+                               
+                                
+                                <br>
+                                <div class="row mb-3">
+                                    <div class="col-sm-4 col-form-label">
+                                        <div id="mrp" class="form-text">
+                                            <p class="text-danger ">₹317.10</p>inclusive of all taxes <p>for 1 Qty
+                                                (₹317.10/ piece)</p>
+                                        </div>
+                                    </div>
+                                    <div class="upload col-sm-8">
+                                        <input type="file" id="uploadBtn">
+                                        <label for="uploadBtn">Upload File</label>
+                                    </div>
+                            </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Navs & Tabs:Allows organising content into different sections or views -->
+<section class="description">
+    <div>
+<ul class="nav nav-tabs  pxy-5 p-2  ">
+    <li class="nav-item "><button class="nav-link  active" data-bs-toggle="tab" data-bs-target="#overView" type="button">OverView</button></li>
+    <li class="nav-item"><button class="nav-link " data-bs-toggle="tab" data-bs-target="#specifications" type="button">Specifications</button></li>
+    <li class="nav-item"><button class="nav-link " data-bs-toggle="tab" data-bs-target="#designGuidelines" type="button">Design Guidelines</button></li>
+ </ul>
+ <div class="tab-content">
+     <div class="tab-pane show fade active" id="overView">
+         <h2>Showcase products in style with a Custom Product Catalog.
+        </h2>
+         <p>Our full-color printing on every page ensures your clothing, electronics, furniture, homeware, or any other product category pops with vibrant detail. Choose between 170gsm or 300gsm coated paper for the ideal weight and finish. To match your specific needs, we offer three binding options: staple binding, perfect for budget-friendly, flat-laying catalogs; wiro binding, ideal for frequently opened catalogs showcasing furniture or electronics; and perfect binding, creating a polished look for extensive catalogs.  
+        </p>
+         <br>
+         <p>Don't worry about limitations - we have a range of sizes and page counts from 8 to 64 to accommodate your product selection. Plus, we understand the importance of getting it just right, so we allow single-unit orders, perfect for test prints before committing to a larger run.
+        </p>
+        <br>
+        <p>Looking forward to ordering in bulk? www.sivakasimarket.com</p>
+     </div>
+     <div class="tab-pane fade" id="specifications">
+         <h2>Brochure Customization Specifications</h2>
+         <div class="row">
+            <div class="col-sm-2">
+                <p>Printing Type</p>
+                <p>Paper Type</p>
+                <p>Printing Capactity</p>
+                <p>Available Sizes</p>
+                <p>Binding Options</p>
+            </div>
+            <div class="col-sm-10">
+                <p><i>Multicolor Printing</i></p>
+                <p><i>170GSM</i></p>
+                <p><i>Available from 8 up to 64 pages</i></p>
+               <p><i>A4, A5, DL, 6X6 in and 8X8 in</i></p> 
+               <p><i>Staple, Wiro and Perfect Binding</i></p> 
+            </div>
+         </div>
+     </div>
+     <div class="tab-pane fade" id="designGuidelines">
+         <ol>
+            <li><p>Extend your design elements (like background colors or images) beyond the final trim edge. The standard bleed area is usually 3mm (0.125 inches) to 5mm (0.25 inches) on all sides.</p>
+                </li>
+                <li><p> Include crop or trim marks in the file to indicate where the paper should be trimmed after printing.
+                </li></p>
+                <li> <p>Keep important text and design elements at least 3mm (0.125 inches) inside the trim edge to prevent them from being cut off during trimming.</li></p>
+                <li> <p>Use CMYK color mode for printing, as opposed to RGB which is used for digital screens.
+                </li></p>
+                <li><p> Images should be high resolution (usually 300 DPI) to ensure crisp printing quality. Avoid using low-resolution images, which may appear pixelated when printed.</p></li>
+                
+         </ol>
+     </div>
+ </div>
+</div>
+</section>
+
+
+    <!-- whatsapp icon sticky -->
+    <div class="whatsapp-main">
+        <a href="https://wa.me/919999999999" target="_blank">
+        <img src="images/whatsapp.png" width="15%" class="whatsapp_img"></a>
+      </div>
+      
+    
+     <!-- /whatsapp icon-->
+    <!-- to top -->
+     <div id="goTop">
+        <a href="#topbar" id="goToBtn">
+            <i class=	"fas fa-angle-double-up"></i>
+        </a>
+     </div>
+
+
+    
+    <!-- footer -->
+    <footer class="bg-light text-dark pt-5 pb-4 ">
+        <div class="container text-align-left text-md-left">
+            <div class="row text-align-left text-md-left">
+                
+                    <div  class="col-12 col-md-6 col-lg-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-danger">ABOUT SIVAKASI MARKET.</h5>
+                    <hr class="mb-4">
+                    <p class="text-dark">Sivakasi market designed to handle bulk orders for custom designs across various categories. Our offerings
+                        include high-quality custom design and bulk printing services for stationery, paper boxes, diaries, jewelry
+                        boxes, garment boxes, food and medical packets, and wrappers.
+                    </p>
+                       
+                </div>
+            
+           
+                <div  class="col-12 col-md-6 col-lg-3 mt-3 mx-auto">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-danger">products</h5>
+                <hr class="mb-4">
+                <p>
+                    <a href="#" class="text-dark" style="text-decoration: none;">Brochure Design</a>
+                </p>
+                <p>
+                    <a href="#" class="text-dark" style="text-decoration: none;">Catalog Design</a>
+                </p>
+                 <p>
+                    <a href="#" class="text-dark" style="text-decoration: none;">Calenders</a>
+                </p>
+
+                <p>
+                    <a href="#" class="text-dark" style="text-decoration: none;">Packaging Design</a>
+                </p>
+                <p>
+                    <a href="#" class="text-dark" style="text-decoration: none;">Printing</a>
+                </p>
+                <p>
+                    <a href="#" class="text-dark" style="text-decoration: none;">Flyer</a>
+                </p>
+            </div>
+           
+                <div  class="col-12 col-md-6 col-lg-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-danger">Whereabouts</h5>
+            <hr class="mb-4">
+            <div class="map-area">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.5747342765026!2d78.07388647588509!3d9.885999874984218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00cfcc15e12a61%3A0xbe7dd0a1e579baf4!2sAriv%20Executions!5e0!3m2!1sen!2sin!4v1724375259879!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+           
+        </div>
+    
+            <div  class="col-12 col-md-6 col-lg-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-danger">Digital Platforms</h5>
+            <hr class="mb-4">
+           <p>
+            <li class="fas fa-home mr-3"></li>Madurai 33,Tamil Nadu
+           </p>
+           <p>
+            <li class="fas fa-envelope mr-3"></li>sivakasimarket@gmail.com
+           </p>
+           <p>
+            <li class="fas fa-phone mr-3"></li>+91-9000-000-000
+           </p>
+          
+        </div>
+ 
+
+    </div>
+    <hr class="mb-4"> 
+    <div class=" row d-flex justify-content-center">
+<div>
+    <p class="text-center">
+        Copyright &copy;2024 All Rights Reserved By:
+        <a href="#" style="text-decoration: none;">
+            <strong class="text-danger">SivakasiMarket</strong>
+        </a>
+    </p>
+</div>
+    </div>
+    <div class="row d-flex justify-content-center">
+<div class="text-center">
+    <ul class="list-unstyled list-inline">
+        <li class="list-inline-item">
+            <a href="#" class="text-dark">
+                <i class="fab fa-facebook"></i>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a href="#" class="text-dark">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a href="#" class="text-dark">
+                <i class="fab fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a href="#" class="text-dark">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a href="#" class="text-dark">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </li>
+    </ul>
+
+</div>
+    </div>
+
+        </div>
+
+     </footer>
+     <!-- /footer -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+       
+
+
+    <!-- jquery -->
+     <script src="js/jquery-3.7.1.js"></script>
+    <!--bootstrap js  -->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- custom js -->
+     <script src="js/script.js"></script>
+     <!-- js for product gallery -->
+      
+      </script>
+</body>
+
+</html>
